@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-fixed-dim": "#00dbe9", "on-secondary-container": "#b0b2ff", "tertiary-fixed-dim": "#4edea3", "surface-dim": "#0b1326", "on-tertiary-fixed-variant": "#005236", "primary": "#dbfcff", "tertiary-container": "#65f2b5", "surface-container-lowest": "#060e20", "surface-bright": "#31394d", "secondary": "#c0c1ff", "surface": "#0b1326", "on-tertiary-fixed": "#002113", "primary-container": "#00f0ff", "surface-tint": "#00dbe9", "error": "#ffb4ab", "on-surface-variant": "#b9cacb", "surface-container-highest": "#2d3449", "on-tertiary": "#003824", "on-primary-fixed-variant": "#004f54", "surface-container": "#171f33", "secondary-fixed-dim": "#c0c1ff", "secondary-container": "#3131c0", "on-secondary-fixed": "#07006c", "on-error": "#690005", "on-primary": "#00363a", "secondary-fixed": "#e1e0ff", "inverse-surface": "#dae2fd", "tertiary": "#d8ffe7", "inverse-primary": "#006970", "on-primary-fixed": "#002022", "surface-container-high": "#222a3d", "on-background": "#dae2fd", "outline-variant": "#3b494b", "on-secondary": "#1000a9", "background": "#0b1326", "on-primary-container": "#006970", "on-tertiary-container": "#006d4a", "on-surface": "#dae2fd", "primary-fixed": "#7df4ff", "outline": "#849495", "surface-container-low": "#131b2e", "on-secondary-fixed-variant": "#2f2ebe", "inverse-on-surface": "#283044", "on-error-container": "#ffdad6", "error-container": "#93000a", "tertiary-fixed": "#6ffbbe", "surface-variant": "#2d3449" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "gutter-mobile": "0.75rem", "margin": "2rem", "margin-mobile": "1rem", "space-xl": "2.5rem", "space-md": "1rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "gutter": "1.5rem" }, "fontFamily": { "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-sm": ["Inter"], "display-hero": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "display-hero-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-numeric": ["JetBrains Mono"] }, "fontSize": { "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "label-numeric": ["13px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 w-full bg-surface-container-low/80 backdrop-blur-xl shadow-[0_1px_16px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-xl"><div class="flex items-center gap-space-sm cursor-pointer"><img alt="ChronoSelf Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W0cFSQDwMXPMM0Nw0JVfBWPGWPXjW8dRQz2KJcyHF4x_UuMZvohi016zVwfnbKwZVHo6qr9KD8xWtADLR1rxEGDY3IbFCmIn_Ep4crZFTEJTBT80HRmBEwT6VVTX1Hh-JtU_N5VUSUPQ4DRAc1A0JeuLSjPZ01Qg-ixu74FSlvGXaHIg4iGSs7xm-bPmYbQVme6wKMQTWzuURPrmjYJoyNjkCN0Tn3Qnaml4KzyXVWTs77O5-S7EqWIZ7R"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">ChronoSelf</span></div><nav class="hidden xl:flex items-center gap-space-xs p-space-xs rounded-xl bg-surface-container/60" data-active-classes="bg-surface-container-high text-primary font-headline-sm text-body-md"><a class="px-space-md py-space-sm rounded-lg text-on-surface-variant font-body-md text-body-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="onboarding-and-persona" href="onboarding.html">Onboarding &amp; Persona</a><a class="px-space-md py-space-sm rounded-lg text-on-surface-variant font-body-md text-body-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="daily-command-hub" href="index.html">Daily Command Hub</a><a class="px-space-md py-space-sm rounded-lg text-on-surface-variant font-body-md text-body-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="wellbeing-and-brain-gym" href="wellbeing.html">Wellbeing &amp; Brain Gym</a><a class="px-space-md py-space-sm rounded-lg text-on-surface-variant font-body-md text-body-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="analytics-and-reports" href="analytics.html">Analytics &amp; Reports</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-high shadow-[0_0_12px_rgba(0,240,255,0.15)]"><span class="material-symbols-outlined text-primary-fixed-dim text-[18px]">local_fire_department</span><span class="font-label-numeric text-label-numeric text-primary-fixed">14 Days Streak</span></div><div class="relative hidden md:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container cursor-pointer transition-colors duration-150 hover:bg-surface-container-high"><span class="material-symbols-outlined text-tertiary-fixed-dim text-[16px]">verified_user</span><span class="font-body-sm text-body-sm text-on-surface">Working Professional</span><span class="material-symbols-outlined text-on-surface-variant text-[16px]">expand_more</span></div><button aria-label="Notifications" class="relative p-space-sm rounded-full bg-surface-container text-on-surface-variant transition-colors duration-150 hover:bg-surface-container-high hover:text-on-surface" type="button"><span class="material-symbols-outlined text-[20px] block">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-primary-container shadow-[0_0_6px_rgba(0,240,255,0.8)]"></span></button><div class="flex items-center gap-space-xs cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/20 hover:ring-primary/60 transition-all duration-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0GjyJ9PQorCw8-aRcXS2N9C8xPpXP3VCmV9PIVx4giZLhmZGj-CDiKrTb0Uf4S5X1CCRD_vEG3g4DXzca19Fx8bhbCqlwtvx2AjVl8Ls87eH18o9icd6IsifpcaLmyg40owOySGIjuvSxhA7NKkbijAhfqQt5HRJ5iVcfwHms67hkY8kPf_k4sqtpBAGNpvXB9QXJmnuQss1JW1zUO5fTw211aK1X4Uah3tv84hjoRUQtphyN7OcjeQ"/></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<div class="w-full px-margin py-space-xl max-w-7xl mx-auto space-y-space-xl">
+<!-- Header Stream / Telemetry Context -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-surface-container-high shadow-sm font-label-caps text-label-caps text-primary-fixed-dim">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
+            NEURAL CALIBRATION ENGINE • STEP 01
+          </span>
+<span class="font-label-numeric text-label-numeric text-outline">SYS.ID: CS-9082-ALPHA</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">Persona &amp; Benchmark Calibration</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Define your baseline habits and calibrate your high-velocity Ideal Self archetype benchmark.</p>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-low/90 backdrop-blur-md p-2 rounded-xl">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-fixed">
+<span class="material-symbols-outlined text-[22px]">tune</span>
+</div>
+<div>
+<div class="font-label-caps text-label-caps text-outline">CALIBRATION PROTOCOL</div>
+<div class="font-label-numeric text-label-numeric text-tertiary-fixed-dim">BIOMETRIC • QUANTUM TIER</div>
+</div>
+</div>
+</div>
+<!-- Main Wizard Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Core Wizard Setup (8 cols) -->
+<div class="lg:col-span-8 space-y-space-lg">
+<!-- STEP 1: Select Your Primary Persona -->
+<section class="bg-surface-container-low/70 backdrop-blur-xl p-space-lg rounded-xl shadow-md space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded-md bg-primary-container text-on-primary font-label-numeric text-label-numeric flex items-center justify-center font-bold">1</span>
+<div>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider block">Neural Blueprint</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Select Your Primary Persona</h2>
+</div>
+</div>
+<span class="font-label-numeric text-label-numeric text-primary-fixed-dim bg-surface-container-high px-2 py-1 rounded">3 ARCHETYPES ACTIVE</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md" id="persona-cards-group">
+<!-- Student Persona Card -->
+<div class="persona-card group relative p-space-md rounded-xl bg-surface-container cursor-pointer transition-all duration-200 hover:-translate-y-0.5 space-y-space-sm shadow-sm" onclick="selectPersona(this, 'Student', 'Academic Polymath', 62, 5.0, 7.5)">
+<div class="flex items-center justify-between">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">school</span>
+</div>
+<span class="opacity-0 check-indicator material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Student</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Exams, intensive study blocks, active recall, research sprints.</p>
+</div>
+<div class="pt-2 flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-[11px] font-label-caps text-secondary-fixed-dim">Research</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-[11px] font-label-caps text-secondary-fixed-dim">Exams</span>
+</div>
+</div>
+<!-- Working Professional Card (Active Default) -->
+<div class="persona-card active group relative p-space-md rounded-xl bg-surface-container cursor-pointer transition-all duration-200 hover:-translate-y-0.5 space-y-space-sm shadow-[0_0_20px_rgba(0,240,255,0.18)] ring-1 ring-primary-container" onclick="selectPersona(this, 'Working Professional', 'Strategic High-Performer v2.4', 88, 6.8, 8.0)">
+<div class="flex items-center justify-between">
+<div class="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center text-primary-fixed-dim">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+</div>
+<span class="check-indicator material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-primary">Working Professional</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Deep work, sprint syncs, career velocity, cognitive leverage.</p>
+</div>
+<div class="pt-2 flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-primary-container/15 text-[11px] font-label-caps text-primary-fixed-dim">Deep Focus</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-[11px] font-label-caps text-on-surface-variant">Sprints</span>
+</div>
+</div>
+<!-- Executive Staff Card -->
+<div class="persona-card group relative p-space-md rounded-xl bg-surface-container cursor-pointer transition-all duration-200 hover:-translate-y-0.5 space-y-space-sm shadow-sm" onclick="selectPersona(this, 'Executive Staff', 'Vanguard Visionary', 92, 4.5, 7.0)">
+<div class="flex items-center justify-between">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[20px]">corporate_fare</span>
+</div>
+<span class="opacity-0 check-indicator material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Executive Staff</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Strategic vision, delegation dynamics, governance, stakeholder comms.</p>
+</div>
+<div class="pt-2 flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-[11px] font-label-caps text-tertiary-fixed-dim">Vision</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-[11px] font-label-caps text-tertiary-fixed-dim">Capital</span>
+</div>
+</div>
+</div>
+</section>
+<!-- STEP 2: Your Baseline Habits & Schedule -->
+<section class="bg-surface-container-low/70 backdrop-blur-xl p-space-lg rounded-xl shadow-md space-y-space-lg">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded-md bg-secondary-container text-secondary-fixed font-label-numeric text-label-numeric flex items-center justify-center font-bold">2</span>
+<div>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider block">Bio-Circadian Telemetry</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Baseline Habits &amp; Daily Cadence</h2>
+</div>
+</div>
+<span class="font-label-numeric text-label-numeric text-outline">SLOPE FACTOR: 1.48</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Sleep Duration & Circadian Toggle -->
+<div class="p-space-md rounded-xl bg-surface-container space-y-space-md">
+<div class="flex items-center justify-between">
+<label class="font-body-md text-body-md text-on-surface flex items-center gap-1.5" for="sleep-slider">
+<span class="material-symbols-outlined text-primary-fixed-dim text-[18px]">bedtime</span>
+                  Target Sleep Duration
+                </label>
+<span class="font-label-numeric text-label-numeric text-primary-container px-2 py-0.5 rounded bg-surface-container-high" id="sleep-val-display">7.5 hrs/night</span>
+</div>
+<div class="space-y-1">
+<input class="w-full accent-primary-container cursor-pointer bg-surface-container-highest rounded-lg h-2" id="sleep-slider" max="9.5" min="5.0" oninput="updateSleep(this.value)" step="0.5" type="range" value="7.5"/>
+<div class="flex justify-between font-label-numeric text-[11px] text-outline">
+<span>5.0 hrs</span>
+<span>7.5 hrs</span>
+<span>9.5 hrs</span>
+</div>
+</div>
+<!-- Circadian Alignment Segmented Controls -->
+<div class="pt-2">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider block mb-2">Circadian Chronotype</span>
+<div class="grid grid-cols-2 gap-2 bg-surface-container-low p-1 rounded-lg">
+<button class="chronotype-btn active px-3 py-2 rounded-md font-body-sm text-body-sm text-center font-semibold bg-surface-container-high text-primary flex items-center justify-center gap-1.5 transition-all" onclick="setChronotype(this, 'Early Bird')" type="button">
+<span class="material-symbols-outlined text-[16px]">wb_sunny</span>
+                    Early Bird
+                  </button>
+<button class="chronotype-btn px-3 py-2 rounded-md font-body-sm text-body-sm text-center text-on-surface-variant flex items-center justify-center gap-1.5 transition-all hover:text-on-surface" onclick="setChronotype(this, 'Night Owl')" type="button">
+<span class="material-symbols-outlined text-[16px]">dark_mode</span>
+                    Night Owl
+                  </button>
+</div>
+</div>
+</div>
+<!-- Peak Focus Window Selector -->
+<div class="p-space-md rounded-xl bg-surface-container space-y-space-md">
+<div class="flex items-center justify-between">
+<label class="font-body-md text-body-md text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[18px]">bolt</span>
+                  Peak Focus Window
+                </label>
+<span class="font-label-numeric text-label-numeric text-tertiary-container px-2 py-0.5 rounded bg-surface-container-high" id="window-status">3.5h Deep Block</span>
+</div>
+<div class="space-y-space-xs">
+<div class="grid grid-cols-2 gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps text-outline block mb-1">WINDOW START</span>
+<div class="flex items-center gap-2 bg-surface-container-low px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-outline text-[16px]">schedule</span>
+<select class="bg-transparent font-label-numeric text-label-numeric text-on-surface focus:outline-none w-full cursor-pointer" id="focus-start">
+<option class="bg-surface-container" value="07:00 AM">07:00 AM</option>
+<option class="bg-surface-container" value="08:00 AM">08:00 AM</option>
+<option class="bg-surface-container" selected="" value="09:00 AM">09:00 AM</option>
+<option class="bg-surface-container" value="10:00 AM">10:00 AM</option>
+<option class="bg-surface-container" value="01:00 PM">01:00 PM</option>
+</select>
+</div>
+</div>
+<div>
+<span class="font-label-caps text-label-caps text-outline block mb-1">WINDOW END</span>
+<div class="flex items-center gap-2 bg-surface-container-low px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-outline text-[16px]">schedule</span>
+<select class="bg-transparent font-label-numeric text-label-numeric text-on-surface focus:outline-none w-full cursor-pointer" id="focus-end">
+<option class="bg-surface-container" value="11:30 AM">11:30 AM</option>
+<option class="bg-surface-container" selected="" value="12:30 PM">12:30 PM</option>
+<option class="bg-surface-container" value="02:00 PM">02:00 PM</option>
+<option class="bg-surface-container" value="04:30 PM">04:30 PM</option>
+<option class="bg-surface-container" value="06:00 PM">06:00 PM</option>
+</select>
+</div>
+</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-lowest flex items-center justify-between text-[11px] font-label-numeric text-on-surface-variant">
+<span class="flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+                    Ultradian Cycle Alignment
+                  </span>
+<span class="text-tertiary-container font-semibold">94% OPTIMAL</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Current Biggest Time Wasters Tags -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Identified Friction Points &amp; Velocity Leaks</span>
+<span class="font-label-numeric text-[11px] text-outline">SELECT ALL THAT APPLY</span>
+</div>
+<div class="flex flex-wrap gap-2" id="friction-tags">
+<button class="tag-btn active flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-body-sm text-body-sm bg-error-container/30 text-error ring-1 ring-error/30 transition-all" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">phonelink_erase</span>
+<span>Doomscrolling Socials</span>
+</button>
+<button class="tag-btn active flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-body-sm text-body-sm bg-error-container/30 text-error ring-1 ring-error/30 transition-all" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">groups_2</span>
+<span>Unfocused Sprints &amp; Meetings</span>
+</button>
+<button class="tag-btn active flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-body-sm text-body-sm bg-error-container/30 text-error ring-1 ring-error/30 transition-all" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">sync_problem</span>
+<span>Excessive Context Switching</span>
+</button>
+<button class="tag-btn flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-body-sm text-body-sm bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">mark_email_unread</span>
+<span>Reactive Email Triage</span>
+</button>
+<button class="tag-btn flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-body-sm text-body-sm bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">fastfood</span>
+<span>Late-Night Sluggishness</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Secondary Calendar Sync Card -->
+<div class="bg-surface-container-high/40 p-space-md rounded-xl flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/50 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">calendar_month</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Auto-Calibrate via Schedule Telemetry</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sync Google Workspace or Microsoft Outlook 365 to instantly parse real meeting density.</p>
+</div>
+</div>
+<button class="whitespace-nowrap px-space-md py-2 rounded-lg bg-surface-container hover:bg-surface-container-highest text-secondary-fixed font-headline-sm text-body-md transition-all shadow-sm flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[18px]">cloud_sync</span>
+            Calibrate via Calendar
+          </button>
+</div>
+</div>
+<!-- Right Column: AI Ideal Self Benchmark Preview (4 cols) -->
+<div class="lg:col-span-4 space-y-space-lg">
+<!-- Generated Persona Archetype Card -->
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-b from-surface-container to-surface-container-low p-space-lg shadow-xl space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-primary-fixed-dim bg-surface-container-highest px-2 py-0.5 rounded">AI BENCHMARK ENGINE</span>
+<div class="flex items-center gap-1 text-tertiary-fixed-dim font-label-numeric text-[11px]">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+              SYNCHRONIZED
+            </div>
+</div>
+<!-- Hero Persona Avatar/Visual Card -->
+<div class="relative h-44 rounded-xl overflow-hidden shadow-inner">
+<img class="w-full h-full object-cover brightness-75 contrast-125" data-alt="Futuristic neon holographic interface displaying high-performance cognitive telemetry, deep dark graphite glass background, luminous electric cyan and vibrant violet laser data streams, hyper-focused tech executive command post aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwcK1p1bnfLuynrQRfYWEF3Yk9vSj0C5EPZb3P_4zavuj8VQ-5GTgCEmlx4IAo-iKALsbwkh2ixg4RMOiuuYojD84LuGo0r1WSj_Buz-GGzkKh1VQnKLPtvN8rMjCZExpCGzABFoKYD0Q9jFEe31dagCOPmO1XmeaUjgttoXttOAVhK7RAFKWI1lVZqP-2YFtmLiXTjKp1EKBw6rI7cpiAGXqI5nPlD4gZ_4b_KXkt_D8DGs4Y5vEDIw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
+<div class="absolute bottom-3 left-3 right-3 flex items-end justify-between">
+<div>
+<span class="font-label-caps text-[10px] text-primary uppercase tracking-widest block">TARGET ARCHETYPE</span>
+<span class="font-headline-md text-headline-md text-primary font-bold" id="target-archetype-name">Strategic High-Performer v2.4</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[18px]">psychology</span>
+</div>
+</div>
+</div>
+<!-- Benchmark Telemetry Gauge -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest/80 space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-outline">TELEMETRY BENCHMARK COMPARISON</span>
+<span class="font-label-numeric text-[11px] text-primary-fixed-dim">+30% EFFICIENCY DELTA</span>
+</div>
+<!-- Metric 1: Productive Efficiency -->
+<div class="space-y-1.5">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Productive Efficiency</span>
+<div class="font-label-numeric text-label-numeric">
+<span class="text-outline">58%</span>
+<span class="text-on-surface-variant mx-1">→</span>
+<span class="text-primary-container font-bold" id="target-efficiency">88%</span>
+</div>
+</div>
+<!-- Multi-track bar -->
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-outline-variant" style="width: 58%"></div>
+<div class="h-full bg-gradient-to-r from-primary-container to-secondary" style="width: 30%"></div>
+</div>
+</div>
+<!-- Metric 2: Deep Work Capacity -->
+<div class="space-y-1.5">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Deep Focus Volume</span>
+<div class="font-label-numeric text-label-numeric">
+<span class="text-outline">4.2h</span>
+<span class="text-on-surface-variant mx-1">→</span>
+<span class="text-tertiary-container font-bold" id="target-deepwork">6.8h</span>
+</div>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-outline-variant" style="width: 42%"></div>
+<div class="h-full bg-gradient-to-r from-tertiary-container to-primary-container" style="width: 26%"></div>
+</div>
+</div>
+<!-- Metric 3: Sleep & Recovery Alignment -->
+<div class="space-y-1.5">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Sleep Regularity</span>
+<div class="font-label-numeric text-label-numeric">
+<span class="text-outline">6.1h</span>
+<span class="text-on-surface-variant mx-1">→</span>
+<span class="text-secondary-fixed font-bold" id="target-sleep-preview">8.0h</span>
+</div>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-outline-variant" style="width: 61%"></div>
+<div class="h-full bg-gradient-to-r from-secondary to-primary" style="width: 19%"></div>
+</div>
+</div>
+</div>
+<!-- Motivational Archetype Quote Box -->
+<div class="p-space-md rounded-xl bg-surface-container-high/50 relative">
+<span class="material-symbols-outlined text-outline/30 text-[32px] absolute top-2 right-2">format_quote</span>
+<p class="font-body-md text-body-md text-primary italic pr-6">“Mastering time is mastering destiny.”</p>
+<div class="mt-2 font-label-caps text-label-caps text-outline uppercase tracking-wider">— ChronoSelf Neural Core</div>
+</div>
+<!-- Primary CTA Button -->
+<div class="space-y-2 pt-2">
+<button class="w-full py-3.5 px-space-md rounded-xl bg-primary-container hover:bg-primary-fixed text-on-primary font-headline-sm text-headline-sm transition-all duration-200 shadow-[0_0_24px_rgba(0,240,255,0.4)] hover:shadow-[0_0_32px_rgba(0,240,255,0.6)] flex items-center justify-center gap-2" onclick="launchCommandHub()" type="button">
+<span>Save &amp; Launch Command Hub</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<div class="text-center font-label-numeric text-[11px] text-outline">
+              Telemetry backed up to encrypted vault
+            </div>
+</div>
+</div>
+<!-- Telemetry Health Mini-Card -->
+<div class="bg-surface-container-low/70 p-space-md rounded-xl flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-full bg-tertiary-container/10 flex items-center justify-center text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<div>
+<div class="font-body-md text-body-md text-on-surface font-semibold">Circadian Engine Online</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Baseline drift is under 1.2% this cycle.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function selectPersona(cardElement, name, archetype, efficiency, deepWork, sleepTarget) {
+    document.querySelectorAll('.persona-card').forEach(c => {
+      c.classList.remove('active', 'shadow-[0_0_20px_rgba(0,240,255,0.18)]', 'ring-1', 'ring-primary-container');
+      const check = c.querySelector('.check-indicator');
+      if (check) check.classList.add('opacity-0');
+      const title = c.querySelector('h3');
+      if (title) {
+        title.classList.remove('text-primary');
+        title.classList.add('text-on-surface');
+      }
+    });
+
+    cardElement.classList.add('active', 'shadow-[0_0_20px_rgba(0,240,255,0.18)]', 'ring-1', 'ring-primary-container');
+    const check = cardElement.querySelector('.check-indicator');
+    if (check) check.classList.remove('opacity-0');
+    const title = cardElement.querySelector('h3');
+    if (title) {
+      title.classList.add('text-primary');
+      title.classList.remove('text-on-surface');
+    }
+    
+    // Save state globally so launchCommandHub can access it
+    window.selectedPersona = { name, archetype, efficiency, deepWork, sleepTarget };
+
+    // Update Benchmark Preview Panel
+    const nameEl = document.getElementById('target-archetype-name');
+    if (nameEl) nameEl.textContent = archetype;
+
+    const effEl = document.getElementById('target-efficiency');
+    if (effEl) effEl.textContent = efficiency + '%';
+
+    const dwEl = document.getElementById('target-deepwork');
+    if (dwEl) dwEl.textContent = deepWork + 'h';
+
+    const slEl = document.getElementById('target-sleep-preview');
+    if (slEl) slEl.textContent = sleepTarget + 'h';
+  }
+
+  function updateSleep(val) {
+    const display = document.getElementById('sleep-val-display');
+    if (display) display.textContent = val + ' hrs/night';
+    const preview = document.getElementById('target-sleep-preview');
+    if (preview) preview.textContent = val + 'h';
+  }
+
+  function setChronotype(btn, type) {
+    document.querySelectorAll('.chronotype-btn').forEach(b => {
+      b.classList.remove('bg-surface-container-high', 'text-primary', 'font-semibold');
+      b.classList.add('text-on-surface-variant');
+    });
+    btn.classList.add('bg-surface-container-high', 'text-primary', 'font-semibold');
+    btn.classList.remove('text-on-surface-variant');
+  }
+
+  function toggleTag(btn) {
+    if (btn.classList.contains('active')) {
+      btn.classList.remove('active', 'bg-error-container/30', 'text-error', 'ring-1', 'ring-error/30');
+      btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+    } else {
+      btn.classList.add('active', 'bg-error-container/30', 'text-error', 'ring-1', 'ring-error/30');
+      btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+    }
+  }
+
+  function launchCommandHub() {
+    // Save telemetry to localStorage
+    const telemetry = {
+      persona: window.selectedPersona || { name: 'Working Professional', archetype: 'Strategic High-Performer v2.4' },
+      sleepTarget: document.getElementById('sleep-slider').value,
+      chronotype: document.querySelector('.chronotype-btn.active')?.innerText.trim() || 'Early Bird'
+    };
+    localStorage.setItem('chronoself_telemetry', JSON.stringify(telemetry));
+
+    const hubLink = document.querySelector('nav a[data-path="daily-command-hub"]');
+    if (hubLink) {
+      hubLink.click();
+    } else {
+      window.location.href = "index.html";
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-lowest py-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary">ChronoSelf</span><span class="text-body-sm font-body-sm text-outline">© 2025 ChronoSelf AI Systems. Human Potential Optimized.</span></div><div class="flex items-center gap-space-lg text-body-sm font-body-sm"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Security &amp; Telemetry</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Neural Models</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">API Console</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">System Status</a></div></div></footer></body></html>
